@@ -1,0 +1,16 @@
+
+@media(max-width: 959px){
+  mat-toolbar{
+      border-radius: 0px;
+  }
+}
+
+.primary-toolbar{
+  background-color: #1b449d;
+  height: 4.5%;
+  color: white;
+}
+
+.title{
+  color: white;
+}

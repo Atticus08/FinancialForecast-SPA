@@ -1,0 +1,17 @@
+mat-nav-list  {
+  background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active{
+  color: black;
+}
+
+.nav-caption{
+  display: inline;
+  padding-left: 6px;
+  font-size: 13px;
+}

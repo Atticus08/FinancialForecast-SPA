@@ -1,0 +1,14 @@
+<mat-toolbar class="primary-toolbar">
+  <div fxFlex fxLayout fxLayoutAlign="beginning">
+    <button mat-icon-button (click)="onMenuToggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+
+  <span class="title">Financial Forecast App</span>
+
+  <div fxFlex fxLayout fxLayoutGap="20px" fxLayoutAlign="end" fxHide.xs>
+    <mat-search-bar></mat-search-bar>
+    <mat-icon>apps</mat-icon>
+  </div>
+</mat-toolbar>
